@@ -8,27 +8,27 @@ a{
     background-color: #1c72c1;
     justify-content: space-between;
     align-self: center;
-    /*position: fixed; */
+    position: fixed; 
 }
 .barra-menu span .trello{
     font-family: 'Pacifico', cursive;
     font-size: 2em;
     color: #fff;
-    padding-top: 5px;
+    
 }
 .barra-menu a{
     margin: 0 30px 0 20px;
     color: #fff;
     font-size: 0.7em;
     
-}
-/*.barra-menu .iniciar-sesion{
-    margin: 0 30px 0 20px;
-} */
+}*.barra-menu .iniciar-sesion{
+    margin: 0 10px 0 10px;
+} 
 .barra-menu .registrate{
-    background-color: #00875a;
+    background-color: #fff;
     border: 1px solid #fff;
     padding: 5px 20px;
     border-radius: 2px;
+    color: #1c72c1;
     
 }

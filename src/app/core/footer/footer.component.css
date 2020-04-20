@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ecf7ff;
+    height: 20px;   
+}
+
+.footer p{
+    color: #5b7b8e;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-family: 'Charmonman', cursive;
+    font-size: 1em;
+}

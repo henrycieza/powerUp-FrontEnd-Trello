@@ -6,7 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MainComponent } from './main/main.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
+import {MatInputModule} from '@angular/material/input';
 
 
 @NgModule({
@@ -14,7 +14,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   imports: [
     CommonModule,
     RouterModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatInputModule
     
 
   ],
