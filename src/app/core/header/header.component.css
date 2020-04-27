@@ -6,7 +6,7 @@ a{
     display: flex;
     flex-direction: row;
     background-color: #1c72c1;
-    justify-content: space-between;
+    justify-content: center;
     align-self: center;
     position: fixed; 
 }

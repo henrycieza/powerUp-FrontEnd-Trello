@@ -1,0 +1,42 @@
+.contenedor{
+    padding-top: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.contenedor .left{
+    width: 40%;
+    background-color: #2571c2;
+}
+.contenedor .right{
+    width: 60%;
+    background-color: #2571c2;
+}
+.left h1{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    padding: 10px 100px;
+}
+
+.left p{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    padding: 10px 100px;
+}
+.right img{
+    padding:10px 100px;
+}
+.registro-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .text-correo {
+    width: 100%;
+  }
+  
+  

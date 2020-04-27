@@ -7,14 +7,15 @@ import { LoginComponent } from './user/login/login.component';
 import { RegisterComponent } from './user/register/register.component';
 import { TaskComponent } from './task/task.component';
 import { TaskListComponent } from './task-list/task-list.component';
+import { IndexComponent } from './index/index.component';
 
 
 @NgModule({
-  declarations: [TrelloComponent, LoginComponent, RegisterComponent, TaskComponent, TaskListComponent],
+  declarations: [TrelloComponent, LoginComponent, RegisterComponent, TaskComponent, TaskListComponent, IndexComponent],
   imports: [
     CommonModule,
     TrelloRoutingModule
   ],
-  exports: [TrelloComponent]
+  exports: [TrelloComponent, IndexComponent]
 })
 export class TrelloModule { }
