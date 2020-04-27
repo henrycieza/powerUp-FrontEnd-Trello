@@ -1,5 +1,4 @@
 import { IndexModule } from './../features/trello/index/index.module';
-import { NotFoundModule } from './not-found/not-found.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';

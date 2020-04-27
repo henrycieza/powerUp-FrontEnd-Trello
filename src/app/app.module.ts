@@ -1,3 +1,4 @@
+import { IndexModule } from './features/trello/index/index.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CoreModule } from './core/core.module';
@@ -15,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CoreModule,
     AppRoutingModule,
     BrowserAnimationsModule
+    
     
   ],
   providers: [],

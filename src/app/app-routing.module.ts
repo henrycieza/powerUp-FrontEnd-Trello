@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './core/not-found/not-found.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent } from './core/header/header.component';
@@ -10,8 +11,12 @@ const routes: Routes = [
     loadChildren: () => import('./features/trello/index/index.module').then(m => m.IndexModule)
   },
   {
-    path: '**',
+    path: '404',
     loadChildren: () => import('./core/not-found/not-found.module').then(m => m.NotFoundModule)
+  },
+  {
+    path: '**',
+    redirectTo: '404'
   }
   
   
