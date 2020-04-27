@@ -1,12 +1,12 @@
+import { NotFoundComponent } from './not-found.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IndexComponent } from './index/index.component'
+
 
 const routes: Routes = [
   {
     path: '',
-    component: IndexComponent
-    
+    component: NotFoundComponent
   }
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class TrelloRoutingModule { }
+export class NotFoundRoutingModule { }

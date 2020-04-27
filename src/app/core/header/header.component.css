@@ -8,7 +8,7 @@ a{
     background-color: #1c72c1;
     justify-content: center;
     align-self: center;
-    position: fixed; 
+    /* position: fixed;  */
 }
 .barra-menu span .trello{
     font-family: 'Pacifico', cursive;

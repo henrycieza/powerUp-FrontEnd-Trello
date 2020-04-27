@@ -7,16 +7,13 @@ import { FooterComponent } from './core/footer/footer.component';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./features/trello/trello.module').then(m => m.TrelloModule)
-  },
-  {
-    path: '404',
-    loadChildren: () => import('./core/not-found/not-found.module').then(m => m.NotFoundModule)
+    loadChildren: () => import('./features/trello/index/index.module').then(m => m.IndexModule)
   },
   {
     path: '**',
-    redirectTo: '404'
+    loadChildren: () => import('./core/not-found/not-found.module').then(m => m.NotFoundModule)
   }
+  
   
 ];
 
